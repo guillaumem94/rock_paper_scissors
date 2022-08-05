@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: 'Mouse Memoirs', sans-serif;
+  background-color: lightblue;
+}
+
+.title {
+  margin-top: 3rem;
+  font-size: 5rem;
+  color: white;
+  text-shadow: 3px 3px 2px black;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.img {
+  height: 15rem;
+  width: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.announcement {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+
+.result {
+  margin-top: 2rem;
+  font-size: 4rem;
+}
